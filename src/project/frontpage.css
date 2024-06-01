@@ -1,0 +1,16 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainfrontpage {
+
+    -fx-background-image: url("ok.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+
+}
+.title{
+    -fx-opacity: 0;
+    -fx-background-color: #F5FFFA;
+}
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" styleClass="mainFxmlClass" stylesheets="@incorrectpswd.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.IncorrectpswdController">
+   <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0">
+         <children>
+            <AnchorPane layoutX="-6.0" prefHeight="400.0" prefWidth="306.0">
+               <children>
+                  <AnchorPane layoutX="58.0" layoutY="50.0" prefHeight="400.0" prefWidth="437.0" stylesheets="@fxml.css">
+                     <children>
+                        <Label layoutX="44.0" layoutY="14.0" prefHeight="54.0" prefWidth="382.0" stylesheets="@incorrectpswd.css" text="Incorrect Username or Password" textAlignment="CENTER" textFill="#fffffffa">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="ReEnterUsername" layoutX="70.0" layoutY="68.0" prefHeight="41.0" prefWidth="295.0" promptText="ReEnter Username">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                        <Hyperlink layoutX="70.0" layoutY="173.0" text="Forgot password?" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Hyperlink>
+                        <Button fx:id="login" layoutX="70.0" layoutY="199.0" mnemonicParsing="false" onMouseClicked="#loginbutton" prefHeight="42.0" prefWidth="295.0" styleClass="loginbutton" stylesheets="@incorrectpswd.css" text="Login" textFill="#f2eded">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                        <PasswordField fx:id="ReEnterPassword" layoutX="70.0" layoutY="123.0" prefHeight="42.0" prefWidth="295.0" promptText="ReEnter Password">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </PasswordField>
+                        <Hyperlink fx:id="signup" layoutX="298.0" layoutY="256.0" onMouseClicked="#signuplink" text="_SignUp_" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Hyperlink>
+                        <Label layoutX="70.0" layoutY="259.0" text="Do you want to Create an Account?" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </AnchorPane>
+               </children></AnchorPane>
+            <Button layoutX="39.0" layoutY="730.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="160.0" styleClass="backtohomepage" stylesheets="@incorrectpswd.css" text=" Back to LoginPage" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
