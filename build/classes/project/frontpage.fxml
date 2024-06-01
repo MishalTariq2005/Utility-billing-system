@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-border-color: #037903;" styleClass="mainfrontpage" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.frontpagecontoller">
+    <stylesheets>
+        <URL value="@frontpage.css" />
+    </stylesheets>
+   <children>
+      <Button layoutY="148.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.0" prefHeight="94.0" prefWidth="617.0" styleClass="title" stylesheets="@frontpage.css">
+         <font>
+            <Font name="Algerian" size="19.0" />
+         </font>
+      </Button>
+      <Label text="Label" />
+      <Label fx:id="button" layoutX="28.0" layoutY="174.0" onMouseClicked="#switchtologin" text="Omni_Bill: Utility Management System" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

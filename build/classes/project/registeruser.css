@@ -1,0 +1,13 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-image: url("bluebg.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+
+}
+.register{
+    -fx-background-color:#50b1e1;
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" styleClass="mainFxmlClass" stylesheets="@fxml.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.FXMLController">
+   <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#createbutton" prefHeight="500.0" prefWidth="1000.0">
+         <children>
+            <AnchorPane layoutX="-6.0" prefHeight="400.0" prefWidth="306.0">
+               <children>
+                  <AnchorPane layoutX="58.0" layoutY="50.0" prefHeight="400.0" prefWidth="437.0" stylesheets="@fxml.css">
+                     <children>
+                        <Label layoutX="116.0" layoutY="14.0" prefHeight="54.0" prefWidth="191.0" text="Login Class" textAlignment="CENTER" textFill="#fffffffa">
+                           <font>
+                              <Font name="System Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="Username" layoutX="70.0" layoutY="68.0" prefHeight="41.0" prefWidth="295.0" promptText="Username">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                        <Hyperlink fx:id="ffpswd" layoutX="70.0" layoutY="173.0" onMouseClicked="#changepswd" text="Forgot password?" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Hyperlink>
+                        <Button fx:id="login" layoutX="70.0" layoutY="199.0" mnemonicParsing="false" onMouseClicked="#loginbutton" prefHeight="42.0" prefWidth="295.0" styleClass="loginbutton" stylesheets="@fxml.css" text="Login" textFill="#f2eded">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="Create" layoutX="264.0" layoutY="269.0" mnemonicParsing="false" onMouseClicked="#CreateButton" prefHeight="34.0" prefWidth="100.0" styleClass="createbutton" stylesheets="@fxml.css" text="Create" textFill="#eadfdf">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="69.0" layoutY="273.0" prefHeight="26.0" prefWidth="191.0" text="Want to create new account?" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <PasswordField fx:id="password" layoutX="70.0" layoutY="123.0" prefHeight="42.0" prefWidth="295.0" promptText="Password">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </PasswordField>
+                     </children>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </AnchorPane>
+               </children></AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

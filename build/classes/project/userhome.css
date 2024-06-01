@@ -1,0 +1,37 @@
+.mainFxmlClass {
+       -fx-background-image: url("bluebg.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;  
+
+}
+.electricity{
+   -fx-background-image: url("electricity.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;  
+}
+.gas{
+     -fx-background-image: url("gas.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;  
+    
+}
+.telephone{
+       -fx-background-image: url("telee.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;  
+    
+}
+.internet{
+       -fx-background-image: url("wifii.jpeg.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;  
+    
+}
+.title{
+    -fx-opacity: 0;
+    -fx-background-color: #F5FFFA;
+}
+.logout
+{
+    -fx-background-color: #50b1e1;
+}

@@ -1,0 +1,19 @@
+
+.mainFxmlClass {
+    
+     -fx-background-image: url("white.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+ 
+
+}
+.sidepane{
+     -fx-background-image: url("bluebg1.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    
+}
+.loginb
+{
+    -fx-background-color:#c70f0f;
+}

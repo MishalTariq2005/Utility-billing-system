@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1600.0" styleClass="mainFxmlClass" stylesheets="@registeruser.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="523.0" layoutY="106.0" minHeight="-Infinity" minWidth="-Infinity" text="Register Yourself" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" layoutX="694.0" layoutY="161.0" promptText="Name" />
+      <TextField alignment="CENTER" layoutX="693.0" layoutY="197.0" promptText="Email" />
+      <TextField alignment="CENTER" layoutX="694.0" layoutY="233.0" promptText="Phone" />
+      <PasswordField alignment="CENTER" layoutX="694.0" layoutY="272.0" promptText="Password" />
+      <PasswordField alignment="CENTER" layoutX="694.0" layoutY="307.0" promptText="Confirm Password" />
+      <TextField alignment="CENTER" layoutX="694.0" layoutY="344.0" promptText="Address" />
+      <Label layoutX="494.0" layoutY="158.0" prefHeight="34.0" prefWidth="193.0" text="Enter Your Name :" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="494.0" layoutY="197.0" prefHeight="27.0" prefWidth="183.0" text="Enter Your Email :" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="494.0" layoutY="233.0" text="Enter Your Phone No :" textAlignment="JUSTIFY" textFill="#faf6f6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="493.0" layoutY="272.0" text="Enter Your Password :" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="495.0" layoutY="343.0" text="Enter Your Address :" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="494.0" layoutY="306.0" prefHeight="27.0" prefWidth="188.0" text="Confirm Password :" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

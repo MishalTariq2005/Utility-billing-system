@@ -1,0 +1,17 @@
+/*
+ * Empty Stylesheet file.
+ */
+.mainFxmlClass {
+    -fx-background-image: url("ok.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+.loginbutton
+{
+    -fx-background-color: #50b1e1;
+}
+.backtohomepage
+{
+    -fx-background-color: #50b1e1;
+}
